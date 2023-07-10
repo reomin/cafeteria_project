@@ -24,27 +24,14 @@ git clone https://github.com/reomin/cafeteria_project.git
 
    ```shell
    mkdir "プロジェクト名"
-   git clone https://github.com/your-repository.git
+   git clone このリポジトリ
    ```
 
-2. バックエンドのパッケージをインストール
 
+2. Docker での実行
+
+   ルートディレクトリで以下を実行
    ```shell
-   cd backend
-   npm install
-   ```
-
-3. フロントエンドのパッケージをインストール
-
-   ```shell
-   cd ../frontend
-   npm install
-   ```
-
-4. Docker での実行
-
-   ```shell
-   cd ../
    docker-compose up -d
    ```
 
